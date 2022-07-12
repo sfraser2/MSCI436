@@ -1,3 +1,7 @@
+from sklearn.model_selection import train_test_split
+from sklearn import metrics
+from sklearn.metrics import mean_squared_error
+
 clf=RandomForestRegressor(random_state=0)
 clf.fit(X_train,y_train)
 y_tr1=clf.predict(X_train)
