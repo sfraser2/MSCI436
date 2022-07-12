@@ -10,3 +10,5 @@ print('train data accuracy :',clf.score(X_train,y_train))
 print('test data accuracy :',clf.score(X_test,y_test))
 print('loss of train data :',mean_squared_error(y_train,y_tr1))
 print('loss of test data :',mean_squared_error(y_test,y_pr))
+
+pip freeze > requirements.txt
